@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        Log.d("onResume-c22fokol", "Main activity active");
+        Log.d("onResume-a22fokol", "Main activity active");
         String defaultValue = "Share.";
         SharedPreferences sharedPref = getSharedPreferences(data, MODE_PRIVATE);
         sharedData.setText(sharedPref.getString(data, defaultValue));
